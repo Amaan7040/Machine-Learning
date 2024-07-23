@@ -1,7 +1,7 @@
 import pandas as pd
 from sklearn.model_selection import train_test_split
 from sklearn.ensemble import RandomForestClassifier
-Heart_data = pd.read_csv("heart_disease.csv")
+Heart_data = pd.read_csv("path/to/dataset")
 pd.set_option("display.max_rows",None)
 Heart_data
 # Male => 1
